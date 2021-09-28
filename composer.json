@@ -1,0 +1,32 @@
+{
+    "name": "orcsor/dcat-ueditor",
+    "alias": "",
+    "description": "Ueditor编辑器集成",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/orcsor/dcat-ueditor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "orcsor",
+            "email": "orcsor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orcsor\\DcatUeditor\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Orcsor\\DcatUeditor\\DcatUeditorServiceProvider",
+        "laravel": {
+            "providers": [
+                "Orcsor\\DcatUeditor\\DcatUeditorServiceProvider"
+            ]
+        }
+    }
+}
