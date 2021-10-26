@@ -18,6 +18,7 @@ class Ueditor extends Field
     protected $options = [
         // 编辑器默认高度
         'initialFrameHeight' => 400,
+        'initialFrameWidth' => '100%',
         'maximumWords' => 100000,
         'serverUrl' => '',
     ];
