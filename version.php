@@ -1,7 +1,10 @@
 <?php
 
 return [
+    '1.0.1' => [
+        "fix 首次登录不显示问题\n fix 宽度100%",
+    ],
     '1.0.0' => [
-        'Initialize extension.',
+        'Ueditor编辑器',
     ],
 ];

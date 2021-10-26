@@ -6,9 +6,10 @@
         <script id="{{$id}}" name="{{$name}}" type="text/plain" {!! $attributes !!} ></script>
         @include('admin::form.help-block')
 
+        <script>
+            var UEDITOR_HOME_URL = '{{ $homeUrl }}'
+        </script>
+
         <script type="text/html" class="{{$class}}_wrapper">{!! $value !!}</script>
     </div>
 </div>
-<script>
-    window.UEDITOR_HOME_URL = '{{ $homeUrl }}'
-</script>
